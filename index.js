@@ -31,7 +31,7 @@ app.use("/api/partner", partnerSection);
 app.use("/api/payNow", payNowSection);
 
 app.get("/", (req, res) => {
-  res.json("IMANXpress Server");
+  res.json("IMANXpress Server update");
 });
 
 app.listen(port, () => {
